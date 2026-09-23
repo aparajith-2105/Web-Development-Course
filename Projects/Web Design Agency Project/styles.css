@@ -1,13 +1,13 @@
 @media(min-width: 768px) {
     .left{
-        display:inline;
-        width:48%;
+        display:inline-block;
+        width:40%;
         top:10px;
         left:2%;
     }
     .right{
-        display:inline;
-        width:48%;
+        display:inline-block;
+        width:40%;
         top:10px;
         right:2%;
     }
@@ -30,6 +30,7 @@
         height:200px;
     }
     .logo{
+        display:block;
         float:left;
         width: 100px;
         height: 100px;
